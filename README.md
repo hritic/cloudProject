@@ -1,4 +1,12 @@
-# cloudProject
+# Reducing response latency of composite functions-as-a-service through scheduling
+
+Team Members 
+1. Ritik Kumar 191CS150
+2. Saurabh Mokashi 191CS154
+3. Suresh Kamediya 191CS158
+4. Satvik Singh 191CS247
+
+
 The paper "Reducing response latency of composite functions-as-a-service through scheduling" by Pawel Zuk and Krzysztof Rzadca proposes a scheduling mechanism that reduces the response latency of serverless functions when they are composed into a larger application. The authors identify that the delay incurred in function composition can be a significant bottleneck for composite applications and propose an approach that uses scheduling to reduce latency.
 
 The authors propose a scheduling algorithm that selects the optimal execution order of functions in a composite application, based on the expected execution times of each function. The algorithm uses Shortest Job First (SJF) and First In First Out (FIFO) scheduling policies to minimize the response latency of the composite application.
